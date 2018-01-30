@@ -8,7 +8,7 @@ class App extends Component {
         projects : []
     }
   }
-  componentWillMount(){
+  componentWillMount(){ 
     this.setState({ projects : [
         {
             title : 'Monday todo',
